@@ -20,7 +20,6 @@ try:
     option1 = browser.find_element_by_css_selector("#robotCheckbox")
     option1.click()
     option2 = browser.find_element_by_css_selector("#robotsRule")
-    option2.click()
 
     # people_radio = browser.find_element_by_id("peopleRule")
     # people_checked = people_radio.get_attribute("id")
